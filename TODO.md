@@ -1,0 +1,2 @@
+- [ ] Create a background crawler that slowly expands the cache from one user.
+- [ ] Prioritize users when iterating through the queue (e.g. friend count, expanded?, cached?)
