@@ -28,7 +28,8 @@ luarocks make
 lua main.lua (username1) (username2)
 ```
 
-> **Note:** Roblox API rate limits make initial searches slow. Results are cached in SQLite, so repeated queries get faster over time.
+> [!NOTE]
+> Roblox API rate limits make initial searches slow. Results are cached in SQLite, so repeated queries get faster over time.
 
 
 ## Example
@@ -44,7 +45,9 @@ friend2
 |
 user2
 ```
-> **Note:** These are not real users.
+
+> [!NOTE]
+> These are not real users.
 
 ## How it works
 * Performs a **bidirection breadth-first-search** (BFS) on the Roblox friends graph.
